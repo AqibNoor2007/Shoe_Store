@@ -1,0 +1,54 @@
+.signcontainver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signinForm {
+  border: 1px solid #00000052;
+  padding: 10px 15px;
+  border-radius: 14px;
+  width: 40%;
+  min-height: 433px;
+}
+
+.formInpout {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.formCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.heding {
+  font-size: 34px;
+  margin: 19px;
+  text-align: center;
+  font-weight: 600;
+}
+.label {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.input {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+}
+.signbtn {
+  font-size: 20px;
+  border: 1px solid #88889930;
+  padding: 10px 15px;
+  border-radius: 29px;
+  background: #ff60005c;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

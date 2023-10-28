@@ -3,9 +3,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 import Menu from "./Menu";
-import Wrapper from "./Wrapper";
 import MenuMobile from "./MenuMobile";
-
+import Waraper from "./Wrapper";
 import { BsCart } from "react-icons/bs";
 import { VscChromeClose } from "react-icons/vsc";
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -45,7 +44,7 @@ function Header() {
       className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between 
        z-20 static top-0 transition-transform duration-300 ${show}`}
     >
-      <Wrapper className="h-[60px] flex justify-between items-center">
+      <Waraper className="h-[60px] flex justify-between items-center">
         <Link href="/">
           <img src="/logo.svg" className=" w-[40px] md:w-[60px]" />
         </Link>
@@ -84,6 +83,7 @@ function Header() {
             >
               5
             </div>
+            <button>Log out </button>
           </div>
 
           {/* Icon End */}
@@ -107,7 +107,7 @@ function Header() {
           </div>
           {/* Mobile Menu End */}
         </div>
-      </Wrapper>
+      </Waraper>
     </header>
   );
 }
